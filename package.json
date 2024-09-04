@@ -1,0 +1,29 @@
+{
+  "name": "jonas-node-front",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "7.4.47",
+    "@stripe/stripe-js": "^4.4.0",
+    "axios": "^1.7.4",
+    "mapbox-gl": "^3.6.0",
+    "pinia": "^2.2.2",
+    "roboto-fontface": "*",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.4.31",
+    "vue-router": "4",
+    "vuetify": "^3.6.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "1.77.6",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.3.3",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
