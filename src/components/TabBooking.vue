@@ -97,7 +97,7 @@ const searchResult = computed(()=>(result.value.length) ? result.value : booking
         <v-card-title class="px-0 pt-0"> {{ item.tour.name }} </v-card-title>
         <v-card-subtitle class="px-0 my-2"> {{ new Date(item?.tour?.startDates[0])?.toLocaleString('fr-FR', {day:'numeric', month: 'long', year: 'numeric'}) +' ; ' + item.tour.startLocation.address }} </v-card-subtitle>
           <template v-slot:prepend>
-            <v-avatar rounded="lg" color="grey-lighten-1" size="70" :image="'http://localhost:3000/img/tours/'+item.tour.imageCover">
+            <v-avatar rounded="lg" color="grey-lighten-1" size="70" :image="'https://natours-express.onrender.com/img/tours/'+item.tour.imageCover">
             </v-avatar>
           </template>
 

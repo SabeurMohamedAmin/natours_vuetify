@@ -19,7 +19,7 @@
     user.value = response.data.User
   });
   const userPhoto = computed(()=>{
-    return `http://127.0.0.1:3000/img/users/${user.value.photo}`;
+    return `https://natours-express.onrender.com/img/users/${user.value.photo}`;
   })
   const photoSize = computed(()=>{
     return smAndDown.value? 50 : 80;

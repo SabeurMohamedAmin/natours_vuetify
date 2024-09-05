@@ -19,7 +19,7 @@ const props = defineProps({
   },
 });
 
-const imgDomainUrl = "http://127.0.0.1:3000/img/";
+const imgDomainUrl = "https://natours-express.onrender.com/img/";
 
 
 </script>

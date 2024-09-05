@@ -7,7 +7,7 @@ import ReviewSlider from '@/components/ReviewSlider.vue';
 import MapBox from '@/components/MapBox.vue';
   const router = useRoute();
   const tour = ref(null);
-  const imgDomainUrl = "http://127.0.0.1:3000/img";
+  const imgDomainUrl = "https://natours-express.onrender.com/img";
 
   onBeforeMount( async () => {
     try {
@@ -68,7 +68,7 @@ import MapBox from '@/components/MapBox.vue';
     <div class="header__hero">
       <div class="header__hero-overlay"></div>
       <img class="header__hero-img"
-        :src="'http://127.0.0.1:3000/img/tours/'+ tour?.imageCover"
+        :src="'https://natours-express.onrender.com/img/tours/'+ tour?.imageCover"
         :alt="tour?.name" 
         :title="tour?.name"
       />

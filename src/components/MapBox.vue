@@ -140,7 +140,7 @@ onUnmounted(() => {
 
 /* Map Marker */
 .map_marker {
-  background-image: url('http://127.0.0.1:3000/img/pin.png');
+  background-image: url('https://natours-express.onrender.com/img/pin.png');
   background-size: cover;
   width: 32px;
   height: 40px;

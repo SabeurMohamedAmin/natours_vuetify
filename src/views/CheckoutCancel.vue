@@ -73,7 +73,7 @@ onUnmounted(() => {
       <v-img
         color="surface-variant"
         height="200"
-        :src="'http://localhost:3000/img/tours/'+tour?.imageCover"
+        :src="'https://natours-express.onrender.com/img/tours/'+tour?.imageCover"
         cover
       >
     </v-img>

@@ -29,7 +29,7 @@ const props = defineProps({
   >
     <v-img
       height="250"
-      :src="`http://127.0.0.1:3000/img/tours/${props.tour.imageCover}`"
+      :src="`https://natours-express.onrender.com/img/tours/${props.tour.imageCover}`"
       cover
     />
     <v-card-item>

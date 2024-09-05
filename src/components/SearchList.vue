@@ -75,7 +75,7 @@ const showToursList = computed(()=>{
             :title="item.name"
             >
             <template v-slot:prepend>
-                <v-avatar rounded='lg' :image="'http://127.0.0.1:3000/img/tours/'+item.imageCover">
+                <v-avatar rounded='lg' :image="'https://natours-express.onrender.com/img/tours/'+item.imageCover">
                 </v-avatar>
             </template>
     

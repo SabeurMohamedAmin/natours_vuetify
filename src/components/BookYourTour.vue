@@ -10,7 +10,7 @@ import {loadStripe} from '@stripe/stripe-js';
         },
     });
     const userLogin = inject('userLogin');
-    const imgDomainUrl = "http://127.0.0.1:3000/img";
+    const imgDomainUrl = "https://natours-express.onrender.com/img";
     const checkoutLink = computed(() => `api/v1/bookings/checkoutSession/${props.tour?.id}`);
 
     //initialize stripe and public key

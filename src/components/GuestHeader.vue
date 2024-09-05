@@ -10,7 +10,7 @@
   const router = useRouter();
   const user_photo_handler = computed(() => {
     return (userPhoto.value)
-    ?`http://127.0.0.1:3000/img/users/${userPhoto.value}`
+    ?`https://natours-express.onrender.com/img/users/${userPhoto.value}`
     : '';
   })
 
