@@ -6,7 +6,8 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 //axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
-axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = "https://natours-express.onrender.com";
+//https://natours-express.onrender.com
 //axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
 
 export default axios;
