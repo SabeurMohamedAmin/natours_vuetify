@@ -70,15 +70,15 @@ const afterLogin = (token) => {
     userLogin.value = true;
     showAlert.value = true;
     loading.value = true;
-    // const timeoutId = setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       showAlert.value = false;
       loading.value = false;
       router.push({ name: 'homePage' });
       return;
-    // }, 2000);
-    // setTimeout(() => {
-    //   router.go(0);
-    // }, 1000);
+    }, 2000);
+    setTimeout(() => {
+      router.go(0);
+    }, 1000);
   }
 };
 
